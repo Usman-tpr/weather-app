@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+
+</head>
+<body>
+    <div >
+        <div class="container">
+            <div class="weather-info">
+                <h1>Weather App</h1>
+                <form >
+                    <input type="text" class="searcharea" id="input" placeholder="Search by city name">
+                    <button class="search" id="submit" onsubmit="return false">Submit</button>
+                    <p id="error"></p>
+
+                </form>
+                <i><img src="https://cdn-icons-png.flaticon.com/512/3767/3767036.png" alt=""></i>
+                <h3 class="city">Pakistan,Islamabad</h3>
+                
+                <p class="line"></p>
+                <section >
+                    <h3 id="temp">Temp:---</h3><br>
+                    <h3 id="feels">Feels like:---</h3><br>
+                    <h3 id="sunny">weather:---</h3><br>
+                    <h3 id="range">Range:---</h3><br>
+                    <h3 id="wind">Wind:---</h3><br>
+
+                </section>
+            </div>
+            </div>
+        
+    </div>
+    <script src="weather.js"></script>
+    
+</body>
+</html>
